@@ -14,8 +14,8 @@ on:
 env:
   AZURE_WEBAPP_NAME: Python-thecatsaidno # set this to your application's name
   WORKING_DIRECTORY: '.'         # set this to the path to your path of working directory inside github repository, defaults to the repository root
-  PYTHON_VERSION: '3.7' 
-  STARTUP_COMMAND: ''           # set this to the startup command required to start the gunicorn server. default it is empty
+  PYTHON_VERSION: '3.6' 
+  STARTUP_COMMAND: 'flask run'           # set this to the startup command required to start the gunicorn server. default it is empty
   FLASK_APP: flasky.py
   FLASK_DEBUG: 1
 
