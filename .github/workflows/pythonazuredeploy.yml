@@ -19,7 +19,7 @@ env:
   FLASK_APP: flasky.py
   FLASK_DEBUG: 1
 
-name: Build and deploy Python app
+
 jobs:
  build-and-deploy:
   runs-on: ubuntu-latest
